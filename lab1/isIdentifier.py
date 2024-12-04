@@ -4,7 +4,7 @@ def isIdentifier(text):
     if text in kwlist:
         return -1
     
-    if not text[0].isalnum():
+    if not (text[0].isalnum() or text[0]=='_'):
         return 0
 
     i=1
