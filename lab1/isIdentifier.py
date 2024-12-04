@@ -1,6 +1,6 @@
 from keyword import kwlist
 
-def verify_identifier(text):
+def isIdentifier(text):
     if text in kwlist:
         return -1
     
@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
     while True:
         t = input("enter identifer\n")
-        res = verify_identifier(t)
+        res = isIdentifier(t)
         if  res == 1:
             print("valid\n")
         elif res == 0:
