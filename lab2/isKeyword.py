@@ -1,5 +1,4 @@
-def isKeyword(string:str):
-    text = input("enter keyword\n")
+def isKeyword(text:str):
     keywords = [
     "auto", "break", "case", "char", "const", "continue", "default", "do", 
     "double", "else", "enum", "extern", "float", "for", "goto", "if", 
