@@ -4,7 +4,7 @@
 
 
 %%
-"//".;        //ignore comments
+"//". ;        //ignore comments
 [0-9]+ printf("number: %s\n",yytext);
 [a-z]+ printf("word: %s\n",yytext);
 %%
